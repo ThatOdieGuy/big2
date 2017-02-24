@@ -1,3 +1,8 @@
+/**
+ * All these components could use header comments to explain what is going on.
+ */
+
+
 import React, { PropTypes } from 'react';
 
 import PlayerCard from './PlayerCard';

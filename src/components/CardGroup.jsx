@@ -11,7 +11,7 @@ const CardGroup = ({ cards, type, onCardClick, selectedCards }) => (
         value={card}
         type={type}
         onClick={() => onCardClick(card)}
-        selected={selectedCards && selectedCards.indexOf(card) !== -1 ? true : false}
+        selected={selectedCards && selectedCards.indexOf(card) !== -1}
       />
     )}
   </ul>

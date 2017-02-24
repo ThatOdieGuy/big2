@@ -7,3 +7,6 @@ assets/bundle.js.map
 
 # Node Modules
 node_modules/
+
+# Ignore WebStorm project files
+.idea

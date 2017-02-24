@@ -2,6 +2,8 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 
 // Access socket emitters directly since they don't pass to reducers
+
+//a -> actions
 import * as a from './../actions';
 import CardGroup from './CardGroup';
 import GamePot from './GamePot';

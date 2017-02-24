@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 
+// t & m here are lazy. Make your code more readable with actionTypes & initialStates
 import * as t from './actionTypes';
 import * as m from './initialStates';
 

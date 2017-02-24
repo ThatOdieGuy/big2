@@ -1,8 +1,7 @@
 body {
   font-size: 16px;
-  font-family: arial;
+  font-family: arial, serif;
   margin: 0;
-  background-color: #;
 }
 
 h4 {
@@ -47,7 +46,7 @@ ul {
   justify-content: center;
 }
 
-game-buttons-container {
+.game-buttons-container {
   order: 3;
 }
 
@@ -177,7 +176,6 @@ game-buttons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
   padding: 0 50px 0 50px;
 }
 
@@ -190,7 +188,7 @@ game-buttons-container {
 }
 
 .card-group:first-child {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .card img {
